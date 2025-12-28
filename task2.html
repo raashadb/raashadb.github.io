@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Cosmic Voyage - An immersive parallax scrolling experience through the depths of space">
+  <title>Cosmic Voyage | Parallax Universe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Orbitron:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="task2.css">
+</head>
+
+<body>
+  <div class="scene" id="scene">
+
+    <div class="layer layer-1" data-speed="0.02"></div>
+
+    <div class="layer layer-2" data-speed="0.05">
+      <div class="nebula"></div>
+    </div>
+
+    <div class="layer layer-3" data-speed="0.08">
+      <div class="star star-1"></div>
+      <div class="star star-2"></div>
+      <div class="star star-3"></div>
+      <div class="star star-4"></div>
+      <div class="star star-5"></div>
+      <div class="star star-6"></div>
+      <div class="star star-7"></div>
+      <div class="star star-8"></div>
+      <div class="star star-9"></div>
+      <div class="star star-10"></div>
+      <div class="star star-11"></div>
+      <div class="star star-12"></div>
+    </div>
+
+    <div class="layer layer-4" data-speed="0.12">
+      <img src="assets/cosmic.png" alt="" class="aurora" aria-hidden="true">
+    </div>
+
+    <div class="layer layer-5" data-speed="0.15">
+      <div class="mid-star mid-star-1"></div>
+      <div class="mid-star mid-star-2"></div>
+      <div class="mid-star mid-star-3"></div>
+      <div class="mid-star mid-star-4"></div>
+      <div class="mid-star mid-star-5"></div>
+      <div class="mid-star mid-star-6"></div>
+      <div class="mid-star mid-star-7"></div>
+      <div class="mid-star mid-star-8"></div>
+    </div>
+
+    <div class="layer layer-6" data-speed="0.18">
+      <div class="dust dust-1"></div>
+      <div class="dust dust-2"></div>
+      <div class="dust dust-3"></div>
+      <div class="dust dust-4"></div>
+      <div class="dust dust-5"></div>
+    </div>
+
+    <div class="layer layer-7" data-speed="0.22">
+      <img src="assets/planet.png" alt="" class="planet planet-ringed" aria-hidden="true">
+    </div>
+
+    <div class="layer layer-8" data-speed="0.28">
+      <img src="assets/moon.png" alt="" class="moon" aria-hidden="true">
+    </div>
+
+    <div class="layer layer-9" data-speed="0.35">
+      <img src="assets/asteroid.png" alt="" class="asteroids asteroids-1" aria-hidden="true">
+    </div>
+
+    <div class="layer layer-10" data-speed="0.42">
+      <img src="assets/satellite.png" alt="" class="satellite" aria-hidden="true">
+    </div>
+
+    <div class="layer layer-11" data-speed="0.55">
+      <div class="particle particle-1"></div>
+      <div class="particle particle-2"></div>
+      <div class="particle particle-3"></div>
+      <div class="particle particle-4"></div>
+      <div class="particle particle-5"></div>
+      <div class="particle particle-6"></div>
+    </div>
+
+    <div class="layer layer-12" data-speed="0.65"></div>
+  </div>
+
+  <main class="content" id="content">
+
+    <section class="section section-hero" id="hero">
+      <div class="section-content">
+        <h1 class="hero-title">
+          <span class="title-line">Cosmic</span>
+          <span class="title-line accent">Voyage</span>
+        </h1>
+        <p class="hero-subtitle">Scroll to explore the infinite depths of space</p>
+        <div class="scroll-indicator">
+          <div class="scroll-arrow"></div>
+          <span>Scroll Down</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-void" id="void">
+      <div class="section-content glass-card">
+        <h2 class="section-title">The Void</h2>
+        <p class="section-text">
+          In the vast emptiness between stars, silence reigns supreme. Here, light itself
+          becomes a traveler, journeying for millennia to reach distant eyes. The void
+          is not empty it breathes with dark energy, pulsing with mysteries we've only
+          begun to comprehend.
+        </p>
+        <div class="section-stats">
+          <div class="stat">
+            <span class="stat-number">93</span>
+            <span class="stat-label">Billion Light Years</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">2</span>
+            <span class="stat-label">Trillion Galaxies</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-nursery" id="nursery">
+      <div class="section-content glass-card">
+        <h2 class="section-title">Stellar Nursery</h2>
+        <p class="section-text">
+          Within swirling nebulae of hydrogen and helium, new stars ignite their first
+          fusion reactions. These cosmic cradles birth suns that will one day warm
+          worlds we cannot yet imagine. Each point of light represents countless
+          possibilities planets forming, life emerging, civilizations rising.
+        </p>
+        <blockquote class="section-quote">
+          "We are made of star stuff. We are a way for the universe to know itself."
+          <cite>— Carl Sagan</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="section section-dance" id="dance">
+      <div class="section-content glass-card">
+        <h2 class="section-title">Cosmic Dance</h2>
+        <p class="section-text">
+          Galaxies spiral through space in an eternal ballet, bound by gravity yet
+          forever separating due to the universe's expansion. Planets orbit stars,
+          moons orbit planets, and asteroids tumble through the darkness all
+          participants in a choreography billions of years in the making.
+        </p>
+        <div class="orbit-diagram">
+          <div class="orbit orbit-1"></div>
+          <div class="orbit orbit-2"></div>
+          <div class="orbit orbit-3"></div>
+          <div class="orbit-center"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-horizon" id="horizon">
+      <div class="section-content">
+        <h2 class="section-title large">Infinite Horizon</h2>
+        <p class="section-text centered">
+          The journey never ends. Each discovery opens doors to deeper mysteries,
+          each answer births a thousand new questions. Welcome to the cosmic voyage
+          where exploration is eternal.
+        </p>
+        <a href="#hero" class="cta-button">
+          <span>Begin Again</span>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 19V5M5 12l7-7 7 7" />
+          </svg>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>rashadbadalzade@gmail.com</p>
+  </footer>
+
+  <script src="task2.js"></script>
+</body>
+
+</html>
