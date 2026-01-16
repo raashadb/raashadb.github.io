@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description"
+        content="Rashad Badalzade - Front-End Developer & Computer Science Student at ELTE, Budapest. Portfolio showcasing web development projects, responsive design skills, and modern UI implementations.">
+    <meta name="author" content="Rashad Badalzade">
+    <meta name="keywords"
+        content="Front-End Developer, Web Development, Bootstrap, JavaScript, HTML, CSS, Budapest, ELTE, Portfolio">
+
+    <title>Rashad Badalzade | Front-End Developer Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <script src="https://use.fontawesome.com/releases/v6.4.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <span class="brand-text">RB</span>
+                <span class="brand-dot">.</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#academics">Academics</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#favourites">Favourites</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="home" class="hero-section">
+        <div class="hero-bg-animation">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-7">
+                    <div class="hero-content">
+                        <span class="hero-greeting">Hello, I'm</span>
+                        <h1 class="hero-title">Rashad Badalzade</h1>
+                        <p class="hero-subtitle">
+                            <span class="typed-text">Front-End Developer</span>
+                            <span class="cursor">|</span>
+                        </p>
+                        <p class="hero-description">
+                            Computer Science student at ELTE Budapest, passionate about creating modern,
+                            responsive web experiences with clean code and beautiful design.
+                        </p>
+                        <div class="hero-cta">
+                            <a href="#portfolio" class="btn btn-primary-custom">View My Work</a>
+                            <a href="#services" class="btn btn-outline-custom">What I Do</a>
+                        </div>
+                        <div class="hero-contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Budapest, Hungary</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:rashadbadalzade@gmail.com">rashadbadalzade@gmail.com</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <a href="tel:+36703031135">(+36) 70 303 11 35</a>
+                            </div>
+                        </div>
+                        <div class="hero-social">
+                            <a href="https://github.com/raashadb" target="_blank" rel="noopener noreferrer"
+                                class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="mailto:rashadbadalzade@gmail.com" class="social-link">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 d-none d-lg-block">
+                    <div class="hero-visual">
+                        <div class="code-card">
+                            <div class="code-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                                <span class="filename">developer.js</span>
+                            </div>
+                            <pre class="code-content"><code><span class="keyword">const</span> <span class="variable">developer</span> = {
+  <span class="property">name</span>: <span class="string">"Rashad Badalzade"</span>,
+  <span class="property">location</span>: <span class="string">"Budapest, HU"</span>,
+  <span class="property">skills</span>: [
+    <span class="string">"HTML"</span>, <span class="string">"CSS"</span>, <span class="string">"JavaScript"</span>,
+    <span class="string">"Bootstrap"</span>, <span class="string">"Git"</span>
+  ],
+  <span class="property">passion</span>: <span class="string">"Building beautiful UIs"</span>,
+  <span class="property">available</span>: <span class="boolean">true</span>
+};</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5 pb-5">
+            <div class="experience-section">
+                <h2 class="section-title text-center mb-5">
+                    <span class="title-accent">Work</span> Experience
+                </h2>
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="experience-card">
+                            <div class="exp-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="exp-content">
+                                <h3>Front-End Intern</h3>
+                                <p class="exp-company">LimeLight TechLead</p>
+                                <p class="exp-date"><i class="far fa-calendar-alt"></i> Current Internship</p>
+                                <ul class="exp-list">
+                                    <li>Building responsive websites and UI improvements</li>
+                                    <li>Implementing parallax scrolling and responsive design</li>
+                                    <li>Bootstrap customization and GitHub Pages deployments</li>
+                                    <li>Writing clean, maintainable HTML/CSS/JS</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="experience-card">
+                            <div class="exp-icon">
+                                <i class="fas fa-building"></i>
+                            </div>
+                            <div class="exp-content">
+                                <h3>Property Manager</h3>
+                                <p class="exp-company">Eivissa Group, Budapest</p>
+                                <p class="exp-date"><i class="far fa-calendar-alt"></i> October 2024 - Present</p>
+                                <ul class="exp-list">
+                                    <li>Managing operations for 60+ Airbnb & Booking properties</li>
+                                    <li>Coordinating guest check-ins/outs and 24/7 support</li>
+                                    <li>Scheduling cleaning and maintenance teams</li>
+                                    <li>Using Slack, Git, and email platforms for coordination</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-label">What I Do</span>
+                <h2 class="section-title">
+                    My <span class="title-accent">Skills</span>
+                </h2>
+                <p class="section-subtitle">
+                    Programming skills developed through university coursework and personal projects
+                </p>
+            </div>
+            <div class="row g-4 mt-4">
+                <div class="col-lg-6 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3>Backend & MVC Development</h3>
+                        <p>Building structured backend applications using MVC principles, clean architecture, and
+                            reusable components. I enjoy organizing code in a way that makes sense and scales well.</p>
+                        <div class="service-tags">
+                            <span class="tag">PHP</span>
+                            <span class="tag">MVC</span>
+                            <span class="tag">OOP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <h3>Java Programming & Game Logic</h3>
+                        <p>Developing Java applications with strong logic and interaction systems. From board games to
+                            snake levels and tile-based puzzles, I like building things that are fun to use.</p>
+                        <div class="service-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Algorithms</span>
+                            <span class="tag">OOP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h3>Python Networking & Automation</h3>
+                        <p>Creating Python tools for file transfer, networking basics, and automation scripts. I use
+                            Python to solve practical problems and automate repetitive tasks.</p>
+                        <div class="service-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Networking</span>
+                            <span class="tag">Scripting</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>Problem Solving & CS Foundations</h3>
+                        <p>Applying computer science fundamentals like clean coding, debugging, and structured
+                            problem solving. I focus on writing reliable solutions that actually work.</p>
+                        <div class="service-tags">
+                            <span class="tag">Data Structures</span>
+                            <span class="tag">Debugging</span>
+                            <span class="tag">Teamwork</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-label">My Work</span>
+                <h2 class="section-title">
+                    GitHub <span class="title-accent">Projects</span>
+                </h2>
+                <p class="section-subtitle">
+                    University projects and personal coding work showcasing my programming skills
+                </p>
+            </div>
+            <div class="row g-4 mt-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder php">
+                                <i class="fab fa-php"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="overlay-content">
+                                    <a href="https://github.com/raashadb/CarRentalSystem-MVC" target="_blank"
+                                        class="btn btn-light-custom">
+                                        <i class="fab fa-github"></i> View on GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-label">Web Application</span>
+                            <h3>CarRentalSystem-MVC</h3>
+                            <p>A car rental management system built with PHP using the MVC architecture pattern.
+                                Features user authentication and booking management.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">MVC</span>
+                                <span class="tech-tag">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder java">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="overlay-content">
+                                    <a href="https://github.com/raashadb/HunterBoardGame" target="_blank"
+                                        class="btn btn-light-custom">
+                                        <i class="fab fa-github"></i> View on GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-label">Desktop Game</span>
+                            <h3>HunterBoardGame</h3>
+                            <p>A strategic board game implemented in Java Swing. Features turn based gameplay with
+                                opponents and interactive game mechanics.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">Swing</span>
+                                <span class="tech-tag">OOP</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder java">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="overlay-content">
+                                    <a href="https://github.com/raashadb/SnakeGameWithLevels" target="_blank"
+                                        class="btn btn-light-custom">
+                                        <i class="fab fa-github"></i> View on GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-label">Desktop Game</span>
+                            <h3>SnakeGameWithLevels</h3>
+                            <p>Classic snake game with multiple difficulty levels built in Java. Features score
+                                tracking, obstacles, and progressively challenging gameplay.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">Swing</span>
+                                <span class="tech-tag">Game Dev</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder java">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="overlay-content">
+                                    <a href="https://github.com/raashadb/RailwayTileGame" target="_blank"
+                                        class="btn btn-light-custom">
+                                        <i class="fab fa-github"></i> View on GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-label">Puzzle Game</span>
+                            <h3>RailwayTileGame</h3>
+                            <p>A tile based puzzle game where players connect railway tracks. Features drag-and-drop
+                                mechanics and level completion validation.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">Swing</span>
+                                <span class="tech-tag">Puzzle</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="https://github.com/raashadb" target="_blank" class="btn btn-primary-custom">
+                    <i class="fab fa-github me-2"></i> More Projects on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="academics" class="academics-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-label">My Journey</span>
+                <h2 class="section-title">
+                    Academic <span class="title-accent">Story</span>
+                </h2>
+                <p class="section-subtitle">
+                    My educational background and the skills I'm developing
+                </p>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <div class="education-card main">
+                        <div class="edu-badge">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="edu-content">
+                            <h3>BSc Computer Science</h3>
+                            <p class="edu-institution">
+                                <i class="fas fa-university"></i> Eötvös Loránd University (ELTE)
+                            </p>
+                            <p class="edu-location">
+                                <i class="fas fa-map-marker-alt"></i> Budapest, Hungary
+                            </p>
+                            <p class="edu-date">
+                                <i class="far fa-calendar-alt"></i> September 2023 - Ongoing
+                            </p>
+                            <div class="edu-courses">
+                                <h4>Key Coursework:</h4>
+                                <div class="course-tags">
+                                    <span class="course-tag">Java</span>
+                                    <span class="course-tag">PHP</span>
+                                    <span class="course-tag">Python</span>
+                                    <span class="course-tag">JavaScript</span>
+                                    <span class="course-tag">Algorithms</span>
+                                    <span class="course-tag">Data Structures</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h3>SAT Score: 1450</h3>
+                            <div class="sat-breakdown">
+                                <div class="sat-score">
+                                    <span class="score-value">730</span>
+                                    <span class="score-label">English (ERW)</span>
+                                </div>
+                                <div class="sat-score">
+                                    <span class="score-value">720</span>
+                                    <span class="score-label">Math</span>
+                                </div>
+                            </div>
+                            <p class="achievement-note">Strong analytical and English language skills demonstrated
+                                through standardized testing.</p>
+                        </div>
+                    </div>
+
+                    <div class="story-card">
+                        <h3><i class="fas fa-quote-left"></i> My Story</h3>
+                        <p>
+                            My journey into Computer Science began with a curiosity about how things work behind the
+                            screen.
+                            Since starting at ELTE in 2023, I've immersed myself in learning programming fundamentals
+                            through
+                            Java and Python, while discovering my passion for web development.
+                        </p>
+                        <p>
+                            What excites me most is the creative side of coding is transforming ideas into visual,
+                            interactive
+                            experiences. I'm focused on building expertise in front-end development, with goals of
+                            mastering
+                            modern JavaScript frameworks and contributing to meaningful projects. Every line of code is
+                            a
+                            step toward becoming the developer I aspire to be.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="favourites" class="favourites-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-label">Personal</span>
+                <h2 class="section-title">
+                    My <span class="title-accent">Favourites</span>
+                </h2>
+                <p class="section-subtitle">
+                    A glimpse into my interests and what keeps me motivated
+                </p>
+            </div>
+            <div class="row g-4 mt-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="favourite-card">
+                        <div class="fav-icon activities">
+                            <i class="fas fa-running"></i>
+                        </div>
+                        <h3>Activities</h3>
+                        <ul class="fav-list">
+                            <li><i class="fas fa-dumbbell"></i> Gym & Fitness</li>
+                            <li><i class="fas fa-plane"></i> Traveling</li>
+                            <li><i class="fas fa-code"></i> Coding Projects</li>
+                            <li><i class="fas fa-book"></i> Learning New Tech</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="favourite-card">
+                        <div class="fav-icon food">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h3>Food</h3>
+                        <ul class="fav-list">
+                            <li><i class="fas fa-pepper-hot"></i> Kebab & Doner</li>
+                            <li><i class="fas fa-pizza-slice"></i> Pizza</li>
+                            <li><i class="fas fa-drumstick-bite"></i> Chicken Dishes</li>
+                            <li><i class="fas fa-cookie"></i> Baklava</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="favourite-card">
+                        <div class="fav-icon sports">
+                            <i class="fas fa-futbol"></i>
+                        </div>
+                        <h3>Sports</h3>
+                        <ul class="fav-list">
+                            <li><i class="fas fa-futbol"></i> Football</li>
+                            <li><i class="fas fa-dumbbell"></i> Weightlifting</li>
+                            <li><i class="fas fa-basketball-ball"></i> Basketball</li>
+                            <li><i class="fas fa-swimming-pool"></i> Swimming</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="favourite-card">
+                        <div class="fav-icon tools">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>Dev Tools</h3>
+                        <ul class="fav-list">
+                            <li><i class="fas fa-code"></i> VS Code</li>
+                            <li><i class="fab fa-github"></i> GitHub</li>
+                            <li><i class="fab fa-discord"></i> Discord</li>
+                            <li><i class="fab fa-slack"></i> Slack</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-center text-lg-start mb-3 mb-lg-0">
+                    <p class="copyright">2026 Rashad Badalzade. All Rights Reserved.</p>
+                </div>
+                <div class="col-lg-4 text-center mb-3 mb-lg-0">
+                    <div class="footer-social">
+                        <a href="https://github.com/raashadb" target="_blank" rel="noopener noreferrer"
+                            class="social-btn">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:rashadbadalzade@gmail.com" class="social-btn">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+36703031135" class="social-btn">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="#home" class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
